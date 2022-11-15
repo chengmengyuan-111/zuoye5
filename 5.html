@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>hong</title>
+		<style type="text/css">
+			.vistor{
+				width:50px;
+				height:50px;
+				background-color:steelblue;
+				transition:width 1s;
+			}
+			.student{
+				width:50px;
+				height:50px;
+				background-color:red;
+				transition:width 1s;
+			}
+				img{
+							width: 50px;
+							height: 50px}
+			.hong{
+				color: white;
+				display: none;
+				line-height: 50px;
+				margin-left: 20px;
+				position:absolute;
+				  font-size: 20px;
+			}
+			.hnog{
+				display: inline-block;
+				line-height: 30px;	
+			}
+			div:hover{
+				width: 500px;
+			}
+			div:hover .hong{
+				display: inline-block;
+			}
+			div:hover .hnog{
+				float: right;
+				line-height: 30px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="vistor">
+			<span class="hong">访客 visitor</span>
+			<span class="hnog">  <img src="img/访客.png"></span>
+		</div>
+		<div class="student">
+			<span class="hong">学生 student</span>
+			<span class="hnog"> <img src="img/学生.png"> </span>	
+		</div>
+	</body>
+</html>
